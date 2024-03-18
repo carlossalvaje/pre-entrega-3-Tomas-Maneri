@@ -1,0 +1,52 @@
+/*EFECTOS HEADER*/
+header{
+    .nav-bar{
+        .logo{
+            img:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+header{
+    .nav-bar{
+        .links-navbar{
+            a:hover{
+                transform: scale(1.1);
+                color: rgb(142, 28, 142);
+            }
+        }
+    }
+}
+/*EFECTO HEADER FIN*/
+
+/*EFECTO FOOTER*/
+.footer{
+    .contenido-footer{
+        .footer-web{
+            a:hover{
+                transform: scale(1.1);
+            }
+        }
+        .footer-ayuda{
+            a:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+/*EFECTO FOOTER FIN*/
+
+/*EFECCTO INDEX*/
+.card-index:hover{
+    transform: scale(1.1);
+}
+.card-index{
+    .boton-card-index{
+        a:hover{
+            background-color: rgb(140, 4, 115);
+        }
+    }
+}
+/*EFECCTO INDEX FIN*/

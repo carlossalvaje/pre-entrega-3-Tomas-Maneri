@@ -1,0 +1,1710 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap");
+/*font-family: "Share Tech Mono", monospace;
+font-weight: 400;
+font-style: normal;
+font-family: "Overpass", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;*/
+@media only screen and (min-width: 320px) {
+  /*INICIO NAVBAR*/
+  header .nav-bar .logo img {
+    height: 50px;
+    width: auto;
+  }
+  header .nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    font-family: "Overpass", sans-serif;
+  }
+  header .nav-bar .links-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 8px;
+    align-items: center;
+  }
+  header .nav-bar .boton-navbar {
+    background-color: rgba(81, 0, 45, 0.806);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  header .nav-bar .links-navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  /*FIN NAVBAR*/
+}
+@media only screen and (min-width: 320px) {
+  /*FOOTER INICIO*/
+  .footer .contenido-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    padding: 30px;
+    padding-bottom: 0;
+  }
+  .footer .contenido-footer .footer-web h2 {
+    color: rgb(163, 1, 188);
+    text-transform: uppercase;
+  }
+  .footer .contenido-footer .footer-web a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 254, 255);
+  }
+  .footer .contenido-footer .footer-ayuda h2 {
+    color: rgb(163, 1, 188);
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  .footer .contenido-footer .footer-ayuda a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 254, 255);
+  }
+  .footer .contenido-footer .footer-social h2 {
+    color: rgb(163, 1, 188);
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  .footer .contenido-footer .footer-social a {
+    color: rgb(224, 254, 255);
+    font-size: 30px;
+    padding: 10px;
+  }
+  .footer .contenido-footer h3 {
+    color: aliceblue;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: baseline;
+  }
+  /*FOOTER FIN*/
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+/*
+font-family: "Share Tech Mono", monospace;
+
+font-family: "Overpass", sans-serif;
+*/
+@media only screen and (min-width: 320px) {
+  /*BODY INDEX INICIO*/
+  .body-index {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  /*CARD INDEX INICIO*/
+  .card-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(77, 222, 255, 0.098);
+    height: 560px;
+    border-radius: 15px;
+    margin: 30px;
+  }
+  .card-index .saludo-index h1 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 67, 195);
+  }
+  .card-index .card-info-index p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(206, 232, 255);
+  }
+  .card-index .boton-card-index a {
+    text-decoration: none;
+    background-color: rgb(107, 0, 87);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(248, 181, 249);
+    font-family: "Overpass", sans-serif;
+    font-weight: 800;
+  }
+  /*CARD INDEX FIN*/
+  /*TITULO DESTACADOS INDEX INICIO*/
+  .titulo-destacados h1 {
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  /*TITULO DESTACADOS INDEX FIN*/
+  /*CARD DESTACADOS INDEX INICIO*/
+  .destacados-card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .destacados-card .destacado-index {
+    background-color: rgba(255, 0, 187, 0.158);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+  }
+  .destacados-card .destacado-index .top-destacado img {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+  }
+  .destacados-card .destacado-index .top-destacado {
+    display: flex;
+  }
+  .destacados-card .destacado-index h6 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .destacados-card .destacado-index .info-destacado-index p {
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  /*CARD DESTACADOS INDEX FIN*/
+}
+@media only screen and (min-width: 480px) {
+  /*BODY INDEX INICIO*/
+  .body-index {
+    background-color: rgb(8, 19, 54);
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  /*CARD INDEX INICIO*/
+  .card-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(77, 222, 255, 0.098);
+    height: 400px;
+    border-radius: 15px;
+    margin: 30px;
+  }
+  .card-index .saludo-index h1 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 67, 195);
+  }
+  .card-index .card-info-index p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(206, 232, 255);
+  }
+  .card-index .boton-card-index a {
+    text-decoration: none;
+    background-color: rgb(107, 0, 87);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(248, 181, 249);
+    font-family: "Overpass", sans-serif;
+    font-weight: 800;
+  }
+  /*CARD INDEX FIN*/
+  /*TITULO DESTACADOS INDEX INICIO*/
+  .titulo-destacados h1 {
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  /*TITULO DESTACADOS INDEX FIN*/
+  /*CARD DESTACADOS INDEX INICIO*/
+  .destacados-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .destacados-card .destacado-index {
+    background-color: rgba(255, 0, 187, 0.158);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+  }
+  .destacados-card .destacado-index .top-destacado img {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+  }
+  .destacados-card .destacado-index .top-destacado {
+    display: flex;
+  }
+  .destacados-card .destacado-index h6 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .destacados-card .destacado-index .info-destacado-index p {
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  /*CARD DESTACADOS INDEX FIN*/
+}
+@media only screen and (min-width: 768px) {
+  /*BODY INDEX INICIO*/
+  .body-index {
+    background-color: rgb(8, 19, 54);
+    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  /*CARD INDEX INICIO*/
+  .card-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(77, 222, 255, 0.098);
+    height: 400px;
+    border-radius: 15px;
+    margin: 100px;
+  }
+  .card-index .saludo-index h1 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 67, 195);
+  }
+  .card-index .card-info-index p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(206, 232, 255);
+  }
+  .card-index .boton-card-index a {
+    text-decoration: none;
+    background-color: rgb(107, 0, 87);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(248, 181, 249);
+    font-family: "Overpass", sans-serif;
+    font-weight: 800;
+  }
+  /*CARD INDEX FIN*/
+  /*TITULO DESTACADOS INDEX INICIO*/
+  .titulo-destacados h1 {
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  /*TITULO DESTACADOS INDEX FIN*/
+  /*CARD DESTACADOS INDEX INICIO*/
+  .destacados-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .destacados-card .destacado-index {
+    background-color: rgba(255, 0, 187, 0.158);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+  }
+  .destacados-card .destacado-index .top-destacado img {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+  }
+  .destacados-card .destacado-index .top-destacado {
+    display: flex;
+  }
+  .destacados-card .destacado-index h6 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .destacados-card .destacado-index .info-destacado-index p {
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  /*CARD DESTACADOS INDEX FIN*/
+}
+@media only screen and (min-width: 1200px) {
+  /*BODY INDEX INICIO*/
+  .body-index {
+    background-color: rgb(8, 19, 54);
+    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  /*CARD INDEX INICIO*/
+  .card-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(77, 222, 255, 0.098);
+    height: 400px;
+    border-radius: 15px;
+    margin: 100px;
+  }
+  .card-index .saludo-index h1 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 67, 195);
+  }
+  .card-index .card-info-index p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(206, 232, 255);
+  }
+  .card-index .boton-card-index a {
+    text-decoration: none;
+    background-color: rgb(107, 0, 87);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(248, 181, 249);
+    font-family: "Overpass", sans-serif;
+    font-weight: 800;
+  }
+  /*CARD INDEX FIN*/
+  /*TITULO DESTACADOS INDEX INICIO*/
+  .titulo-destacados h1 {
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  /*TITULO DESTACADOS INDEX FIN*/
+  /*CARD DESTACADOS INDEX INICIO*/
+  .destacados-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .destacados-card .destacado-index {
+    background-color: rgba(255, 0, 187, 0.158);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+  }
+  .destacados-card .destacado-index .top-destacado img {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+  }
+  .destacados-card .destacado-index .top-destacado {
+    display: flex;
+  }
+  .destacados-card .destacado-index h6 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .destacados-card .destacado-index .info-destacado-index p {
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  /*CARD DESTACADOS INDEX FIN*/
+}
+@media only screen and (min-width: 320px) {
+  /*BODY PRODUCTORES INICIO*/
+  .body-productores {
+    background-color: rgb(0, 81, 73);
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY PRODUCTORES FIN*/
+  /*CARD PRODUCTOR INICIO*/
+  .card-productores .productor-1 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-1 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio*/
+  .card-productores .productor-1 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-1 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-1 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-1 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN*/
+  /*CARD PRODUCTOR INICIO 2*/
+  .card-productores .productor-2 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-2 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 2*/
+  .card-productores .productor-2 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-2 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-2 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-2 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 2*/
+  /*CARD PRODUCTOR INICIO 3*/
+  .card-productores .productor-3 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-3 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 3*/
+  .card-productores .productor-3 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-3 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-3 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-3 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 3*/
+  /*CARD PRODUCTOR INICIO 4*/
+  .card-productores .productor-4 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-4 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 4*/
+  .card-productores .productor-4 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-4 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-4 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-4 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 4*/
+}
+@media only screen and (min-width: 768px) {
+  /*BODY PRODUCTORES INICIO*/
+  .body-productores {
+    background-color: rgb(0, 81, 73);
+    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY PRODUCTORES FIN*/
+  /*CARD PRODUCTOR INICIO*/
+  .card-productores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: repeat(2);
+  }
+  .card-productores .productor-1 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-1 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio*/
+  .card-productores .productor-1 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-1 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-1 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-1 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN*/
+  /*CARD PRODUCTOR INICIO 2*/
+  .card-productores .productor-2 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-2 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 2*/
+  .card-productores .productor-2 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-2 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-2 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-2 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 2*/
+  /*CARD PRODUCTOR INICIO 3*/
+  .card-productores .productor-3 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-3 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 3*/
+  .card-productores .productor-3 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-3 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-3 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-3 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 3*/
+  /*CARD PRODUCTOR INICIO 4*/
+  .card-productores .productor-4 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-4 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 4*/
+  .card-productores .productor-4 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-4 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-4 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-4 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 4*/
+}
+@media only screen and (min-width: 1200px) {
+  /*BODY PRODUCTORES INICIO*/
+  .body-productores {
+    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
+    background-color: rgb(0, 81, 73);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY PRODUCTORES FIN*/
+  /*CARD PRODUCTOR INICIO*/
+  .card-productores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card-productores .productor-1 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-1 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio*/
+  .card-productores .productor-1 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-1 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-1 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-1 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-1 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-1 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN*/
+  /*CARD PRODUCTOR INICIO 2*/
+  .card-productores .productor-2 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-2 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 2*/
+  .card-productores .productor-2 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-2 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-2 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-2 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-2 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-2 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 2*/
+  /*CARD PRODUCTOR INICIO 3*/
+  .card-productores .productor-3 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-3 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 3*/
+  .card-productores .productor-3 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-3 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-3 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-3 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-3 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-3 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 3*/
+  /*CARD PRODUCTOR INICIO 4*/
+  .card-productores .productor-4 {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+  }
+  .card-productores .productor-4 .topcard-productor .img-productor img {
+    width: 35px;
+    height: auto;
+    padding-left: 10px;
+  }
+  /*datos de las cards individuales inicio 4*/
+  .card-productores .productor-4 .topcard-productor {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: start;
+  }
+  .card-productores .productor-4 .topcard-productor h4 {
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .card-productores .productor-4 .productor-bio h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-bio p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-programas .programas-iconos img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  .card-productores .productor-4 .productor-trabajos h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+  }
+  .card-productores .productor-4 .productor-trabajos p {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto h5 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(116, 200, 255);
+    padding-bottom: 5px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .card-productores .productor-4 .productor-contacto .productor-icono-redes a i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  /*CARD PRODUCTOR FIN 4*/
+}
+@media only screen and (min-width: 320px) {
+  /*BODY INDEX INICIO*/
+  .body-inicio-sesion {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  .formulario {
+    background-color: rgba(254, 189, 255, 0.178);
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 260px;
+    height: auto;
+  }
+  .formulario h1 {
+    color: rgb(178, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+  form {
+    padding: 10px;
+  }
+  form .username label {
+    color: rgb(61, 22, 50);
+  }
+  .formulario form .recordar {
+    color: rgba(240, 248, 255, 0.185);
+  }
+}
+@media only screen and (min-width: 480px) {
+  /*BODY INDEX INICIO*/
+  .body-inicio-sesion {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  .formulario {
+    background-color: rgba(254, 189, 255, 0.178);
+    margin-top: 50%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 380px;
+    height: auto;
+  }
+  .formulario h1 {
+    color: rgb(178, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+  form {
+    padding: 10px;
+  }
+  form .username label {
+    color: rgb(61, 22, 50);
+  }
+  .formulario form .recordar {
+    color: rgba(240, 248, 255, 0.185);
+  }
+}
+@media only screen and (min-width: 768px) {
+  /*BODY INDEX INICIO*/
+  .body-inicio-sesion {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  .formulario {
+    margin: 0;
+    margin-top: 200px;
+    margin-left: 450px;
+    background-color: rgba(254, 189, 255, 0.178);
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+  }
+  .formulario h1 {
+    color: rgb(178, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+  form {
+    padding: 10px;
+  }
+  form .username label {
+    color: rgb(61, 22, 50);
+  }
+  .formulario form .recordar {
+    color: rgba(240, 248, 255, 0.185);
+  }
+}
+/*BODY AYUDA INICIO*/
+.body-ayuda {
+  background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+  background-color: rgb(8, 19, 54);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+/*BODY AYUDA FIN*/
+.menu-ayuda .contenedor-ayuda .ayuda-1 {
+  background-color: rgba(0, 0, 0, 0.372);
+  padding: 30px;
+  margin: 50px;
+}
+
+.menu-ayuda .contenedor-ayuda .ayuda-2 {
+  background-color: rgba(0, 0, 0, 0.372);
+  padding: 30px;
+  margin: 50px;
+}
+
+.menu-ayuda .contenedor-ayuda .ayuda-3 {
+  background-color: rgba(0, 0, 0, 0.372);
+  padding: 30px;
+  margin: 50px;
+}
+
+.menu-ayuda .contenedor-ayuda .ayuda-4 {
+  background-color: rgba(0, 0, 0, 0.372);
+  padding: 30px;
+  margin: 50px;
+}
+
+/*EFECTOS HEADER*/
+header .nav-bar .logo img:hover {
+  transform: scale(1.1);
+}
+
+header .nav-bar .links-navbar a:hover {
+  transform: scale(1.1);
+  color: rgb(142, 28, 142);
+}
+
+/*EFECTO HEADER FIN*/
+/*EFECTO FOOTER*/
+.footer .contenido-footer .footer-web a:hover {
+  transform: scale(1.1);
+}
+.footer .contenido-footer .footer-ayuda a:hover {
+  transform: scale(1.1);
+}
+
+/*EFECTO FOOTER FIN*/
+/*EFECCTO INDEX*/
+.card-index:hover {
+  transform: scale(1.1);
+}
+
+.card-index .boton-card-index a:hover {
+  background-color: rgb(140, 4, 115);
+}
+
+/*EFECCTO INDEX FIN*/
+
+/*# sourceMappingURL=estilos.css.map */
